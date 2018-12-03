@@ -3,7 +3,7 @@ import uuid
 from flask import Blueprint, request, url_for, flash, redirect
 from flask import render_template
 from flask_login import login_user, logout_user
-from flask.ext.wtf import Form
+from flask_wtf  import Form
 from wtforms import Form, TextField, TextAreaField, PasswordField, validators, ValidationError
 
 from bibserver.config import config
