@@ -11,6 +11,7 @@ setup(
         "pyes",
         "chardet",
         "requests",
+        "itsdangerous",
     ],
     url = 'http://bibserver.okfn.org/',
     author = 'Open Knowledge Foundation',
